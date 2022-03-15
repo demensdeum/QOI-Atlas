@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4534C47027B90B1600EE0F6C /* QOI in Frameworks */ = {isa = PBXBuildFile; productRef = 4534C46F27B90B1600EE0F6C /* QOI */; };
+		4534C47327B90E4D00EE0F6C /* Shortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 4534C47227B90E4D00EE0F6C /* Shortcuts */; };
+		45F870E027B06A8D00B1B107 /* qoi_atlasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F870B827B06A8700B1B107 /* qoi_atlasApp.swift */; };
+		45F870E427B06A8D00B1B107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F870BA27B06A8D00B1B107 /* Assets.xcassets */; };
+		45F870FC27B06FCE00B1B107 /* UserInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 45F870FB27B06FCE00B1B107 /* UserInterface */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4534C46E27B8FF9500EE0F6C /* QOI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = QOI; sourceTree = "<group>"; };
+		4534C47127B90D3800EE0F6C /* Shortcuts */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Shortcuts; sourceTree = "<group>"; };
+		4578331227B4778300F9470A /* qoi-atlas--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "qoi-atlas--iOS--Info.plist"; sourceTree = "<group>"; };
+		45F870B827B06A8700B1B107 /* qoi_atlasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qoi_atlasApp.swift; sourceTree = "<group>"; };
+		45F870BA27B06A8D00B1B107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45F870BF27B06A8D00B1B107 /* qoi-atlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "qoi-atlas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45F870C727B06A8D00B1B107 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		45F870D027B06A8D00B1B107 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		45F870D227B06A8D00B1B107 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		45F870DC27B06A8D00B1B107 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		45F870DE27B06A8D00B1B107 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		45F870FA27B06EF800B1B107 /* UserInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UserInterface; sourceTree = "<group>"; };
+		45F8710127B0764500B1B107 /* qoi-atlas (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "qoi-atlas (iOS).entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45F870BC27B06A8D00B1B107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4534C47027B90B1600EE0F6C /* QOI in Frameworks */,
+				45F870FC27B06FCE00B1B107 /* UserInterface in Frameworks */,
+				4534C47327B90E4D00EE0F6C /* Shortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F870B227B06A8600B1B107 = {
+			isa = PBXGroup;
+			children = (
+				4578331227B4778300F9470A /* qoi-atlas--iOS--Info.plist */,
+				45F8710127B0764500B1B107 /* qoi-atlas (iOS).entitlements */,
+				45F870F427B06DCB00B1B107 /* Packages */,
+				45F870B727B06A8700B1B107 /* Shared */,
+				45F870C627B06A8D00B1B107 /* macOS */,
+				45F870CF27B06A8D00B1B107 /* Tests iOS */,
+				45F870DB27B06A8D00B1B107 /* Tests macOS */,
+				45F870C027B06A8D00B1B107 /* Products */,
+				45F870F727B06EBB00B1B107 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45F870B727B06A8700B1B107 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				45F870B827B06A8700B1B107 /* qoi_atlasApp.swift */,
+				45F870BA27B06A8D00B1B107 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		45F870C027B06A8D00B1B107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45F870BF27B06A8D00B1B107 /* qoi-atlas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45F870C627B06A8D00B1B107 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F870C727B06A8D00B1B107 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		45F870CF27B06A8D00B1B107 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F870D027B06A8D00B1B107 /* Tests_iOS.swift */,
+				45F870D227B06A8D00B1B107 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		45F870DB27B06A8D00B1B107 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				45F870DC27B06A8D00B1B107 /* Tests_macOS.swift */,
+				45F870DE27B06A8D00B1B107 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		45F870F427B06DCB00B1B107 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				45F870FA27B06EF800B1B107 /* UserInterface */,
+				4534C46E27B8FF9500EE0F6C /* QOI */,
+				4534C47127B90D3800EE0F6C /* Shortcuts */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		45F870F727B06EBB00B1B107 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45F870BE27B06A8D00B1B107 /* qoi-atlas (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45F870E827B06A8D00B1B107 /* Build configuration list for PBXNativeTarget "qoi-atlas (iOS)" */;
+			buildPhases = (
+				45F870BB27B06A8D00B1B107 /* Sources */,
+				45F870BC27B06A8D00B1B107 /* Frameworks */,
+				45F870BD27B06A8D00B1B107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "qoi-atlas (iOS)";
+			packageProductDependencies = (
+				45F870FB27B06FCE00B1B107 /* UserInterface */,
+				4534C46F27B90B1600EE0F6C /* QOI */,
+				4534C47227B90E4D00EE0F6C /* Shortcuts */,
+			);
+			productName = "qoi-atlas (iOS)";
+			productReference = 45F870BF27B06A8D00B1B107 /* qoi-atlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45F870B327B06A8600B1B107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					45F870BE27B06A8D00B1B107 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 45F870B627B06A8600B1B107 /* Build configuration list for PBXProject "qoi-atlas" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45F870B227B06A8600B1B107;
+			packageReferences = (
+			);
+			productRefGroup = 45F870C027B06A8D00B1B107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45F870BE27B06A8D00B1B107 /* qoi-atlas (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45F870BD27B06A8D00B1B107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F870E427B06A8D00B1B107 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45F870BB27B06A8D00B1B107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F870E027B06A8D00B1B107 /* qoi_atlasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45F870E627B06A8D00B1B107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45F870E727B06A8D00B1B107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		45F870E927B06A8D00B1B107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "qoi-atlas (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55833JK329;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "qoi-atlas--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demensdeum.qoi-atlas";
+				PRODUCT_NAME = "qoi-atlas";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		45F870EA27B06A8D00B1B107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "qoi-atlas (iOS).entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55833JK329;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "qoi-atlas--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.demensdeum.qoi-atlas";
+				PRODUCT_NAME = "qoi-atlas";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45F870B627B06A8600B1B107 /* Build configuration list for PBXProject "qoi-atlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F870E627B06A8D00B1B107 /* Debug */,
+				45F870E727B06A8D00B1B107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45F870E827B06A8D00B1B107 /* Build configuration list for PBXNativeTarget "qoi-atlas (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45F870E927B06A8D00B1B107 /* Debug */,
+				45F870EA27B06A8D00B1B107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4534C46F27B90B1600EE0F6C /* QOI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = QOI;
+		};
+		4534C47227B90E4D00EE0F6C /* Shortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Shortcuts;
+		};
+		45F870FB27B06FCE00B1B107 /* UserInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserInterface;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 45F870B327B06A8600B1B107 /* Project object */;
+}
